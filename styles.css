@@ -1,0 +1,152 @@
+body
+{
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #997C3D;
+}
+
+a
+{
+  color: #FF7000;
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: #000000;
+}
+
+ul  
+{
+  margin: 0;
+  padding: 0;
+}
+
+nav
+{
+  background-color: #FF7000;
+  padding: 1em 0;
+}
+
+.quick-nav > li
+{
+  border-right: 1px solid #000000;
+  display: inline-block;
+}
+
+.quick-nav > li:last-child
+{
+  border-right: none;
+}
+
+.quick-nav a
+{
+  color: #000000;
+  padding: 0 0.5em;
+}
+
+.quick-nav a:hover
+{
+  color: #d3d3d3;
+}
+
+.masthead-intro, .masthead-heading, .content-footer
+{
+  text-align: center;
+}
+
+.masthead
+{
+  background: url("http://i1003.photobucket.com/albums/af160/jabrueck/bridges_zpssizuqlsr.jpeg") no-repeat center bottom;
+  padding: 6em 0;
+}
+
+.masthead-intro
+{
+  color: #FF7000;
+  text-shadow: 2px 2px #000000;
+  margin-bottom: 0.1em;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading
+{
+  color: #FF7000;
+  text-shadow: 2px 2px #000000;
+  margin-top: -0.2em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: upper-case;
+}
+
+.icon-navigation img
+{
+  display: block;
+  height: 5em;
+}
+
+.icon-navigation > li
+{
+  border: 1px solid #000000;
+  border-radius: 50%;
+  display: inline-block;
+  height: 80px;
+  margin-right: 8em;
+  padding: 50px;;
+  width: 80px;
+}
+
+.icon-navigation li:last-child
+{
+  margin-right: 0;
+}
+
+.icon-navigation p 
+{
+  display: block;
+  text-align: center;
+}
+
+.introduction-section, .location-section, .questions-section, .content-footer, .site-nav
+{
+  max-width: 54em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.introduction-section > p, .location-section > p, .content-footer > p
+{
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2
+{
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.social > li
+{
+  display: inline-block;
+}
+
+.social img
+{
+  height: 2em;
+  widows: 2em;
+}
+
+.content-footer > p
+{
+  color: #ffffff;
+}

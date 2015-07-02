@@ -24,6 +24,7 @@ ul
   padding: 0;
 }
 
+/*------ Top Navigation ------*/
 nav
 {
   background-color: #FF7000;
@@ -52,6 +53,7 @@ nav
   color: #d3d3d3;
 }
 
+/*------ Header ------*/
 .masthead-intro, .masthead-heading, .content-footer
 {
   text-align: center;
@@ -84,6 +86,7 @@ nav
   text-transform: upper-case;
 }
 
+/*------ Image Navigation ------*/
 .icon-navigation img
 {
   display: block;
@@ -112,6 +115,7 @@ nav
   text-align: center;
 }
 
+/*------ About Me Page ------*/
 .introduction-section, .location-section, .questions-section, .content-footer, .site-nav
 {
   max-width: 54em;
@@ -135,6 +139,25 @@ nav
   font-weight: bold;
 }
 
+/*------ Projects Page ------*/
+.projects img
+{
+  display: block;
+  height: 16em;
+  width: 25em;
+}
+
+.projects > li
+{
+  display: inline-block;
+}
+
+.projects p
+{
+  display: block;
+  text-align: center;
+}
+/*------ Footer ------*/
 .social > li
 {
   display: inline-block;
